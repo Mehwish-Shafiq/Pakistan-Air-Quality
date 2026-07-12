@@ -1,0 +1,7 @@
+@"
+__pycache__/
+*.pyc
+api_keys/config.py
+models/*.pkl
+.streamlit/secrets.toml
+"@ | Out-File -Encoding utf8 .gitignore
